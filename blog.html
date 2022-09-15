@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <section class="container">
+        <div class="card text-bg-light mb-3" style="max-width: 70rem;">
+            <div class="card-header fs-2">What is the difference between Local storage and session storage?</div>
+            <div class="card-body">
+              <h5 class="card-title">localStorage and sessionStorage :</h5>
+              <p class="card-text">
+                
+                
+                localStorage and sessionStorage are relatively new APIs (meaning, not all legacy browsers will support them) and are near identical (both in APIs and capabilities) with the sole exception of persistence. sessionStorage (as the name suggests) is only available for the duration of the browser session (and is deleted when the tab or window is closed) - it does, however, survive page reloads .
+                
+                Clearly, if the data you are storing needs to be available on an ongoing basis then localStorage is preferable to sessionStorage - although you should note both can be cleared by the user so you should not rely on the continuing existence of data in either case.
+                
+                localStorage and sessionStorage are perfect for persisting non-sensitive data needed within client scripts between pages (for example: preferences, scores in games). The data stored in localStorage and sessionStorage can easily be read or changed from within the client/browser so should not be relied upon for storage of sensitive or security-related data within applications..</p>
+            </div>
+          </div>
+        <div class="card text-bg-light mb-3" style="max-width: 70rem;">
+            <div class="card-header fs-2">What is the difference between Global scope and block scope?</div>
+            <div class="card-body">
+              <h5 class="card-title">Global scope and block scope :</h5>
+              <p class="card-text">Function scoped variables: A function scoped variable means that the variable defined within a function will not accessible from outside the function. Block scoped variables: A block scoped variable means that the variable defined within a block will not be accessible from outside the block.A scope is where you can refer to a variable. a block defines a block scope a variable defined inside a block will be defined only inside that block and you can't reference it after the end of block.<br><br>1. The scope of a parameter declaration is the body of the method in which the declaration appears.<br><br>2. The scope of a local-variable declaration is from the point at which the declaration appears to the end of that block.<br><br>3.The scope of a local-variable declaration that appears in the initialization section of a for statement’s header is the body of the for statement and the other expressions in the header.<br><br>4. A method or field’s scope is the entire body of the class. This enables non-static methods of a class to use the fields and other methods of the class.</p>
+            </div>
+          </div>
+        <div class="card text-bg-light mb-3" style="max-width: 70rem;">
+            <div class="card-header fs-2">How does the even loop works in javascript ?</div>
+            <div class="card-body">
+              <h5 class="card-title">JavaScript event loop :</h5>
+              <p class="card-text">The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.<br><br>Concepts, like passing callbacks to functions or writing asynchronous code, are often not so difficult to implement, which makes most JavaScript developers care less about what goes on under the hood. They just don’t care about understanding the complexities that have deeply abstracted from them by the language.
+
+                As a JavaScript developer, it becomes increasingly important to understand what really happens under the hood and how most of these complexities abstracted from us really work. It helps us make more informed decisions, which can, in turn, boost our code performance drastically.
+                
+                This article focuses on one of the very important but seldom understood concepts or terms in JavaScript. The EVENT LOOP!. 
+                
+                Writing asynchronous code can not be avoided in JavaScript, but why does a code running asynchronously really mean? i.e. The Event Loop
+                
+                Before we can understand how the event loop works, we first have to understand what JavaScript itself is and how it works!</p>
+            </div>
+          </div>
+        <div class="card text-bg-primary mb-3" style="max-width: 70rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>   
+</body>
+</html>

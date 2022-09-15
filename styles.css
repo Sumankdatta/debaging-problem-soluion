@@ -105,6 +105,7 @@ body {
 .divider-container {
   height: 80px;
   display: flex;
+ 
   justify-content: center;
   align-items: center;
   gap: 15px;
@@ -142,6 +143,7 @@ button {
 }
 
 #histories {
+ 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -152,6 +154,7 @@ button {
   height: 100%;
   padding: 50px;
   display: flex;
+  
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
