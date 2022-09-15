@@ -145,7 +145,7 @@ button {
 #histories {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-gap:15px;
+  grid-gap:20px;
   /* display: flex;
   flex-wrap: wrap;
   justify-content: space-around; */
@@ -158,7 +158,7 @@ button {
   /* display: flex;
   
   justify-content: space-between; */
-  align-items: center; 
+  /* align-items: center;  */
   padding: 20px 30px;
   color: white;
   border-radius: 15px;
